@@ -1,0 +1,68 @@
+/* *{font-size: 12pt;} */
+
+h1{
+  font-size: xx-large;
+}
+
+button{
+  font-size: 10pt;
+  font-family: X-Files;
+  cursor: pointer;
+}
+
+ .window{
+   font-size: large; 
+   font-family: X-Files;
+
+ }
+
+ p{
+  padding: 4px;
+ }
+
+ body{
+  background-color: silver;
+  border-radius: 30px;
+  box-shadow: none;
+ }
+
+ .noshadow{
+  box-shadow: none;
+ }
+
+ .hide{
+  display: none;
+ }
+
+ .red{
+  background-color: red;
+  color: white;
+ }
+
+ .closebutton:hover{
+  background-color: red;
+  cursor: pointer;
+ }
+
+.post{
+  width: 25%;
+  height: auto;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.container{
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.comments{
+  display: flex;
+  flex-direction: column;
+}
+
+.comments>p{
+  margin: 0;
+}
+
